@@ -115,6 +115,17 @@ export const products = [
     image: "/images/black mahagan pillow bag.jpg",
     description: "Quality packaging for pillows and comfort items",
   },
+  {
+    id: 11,
+    name: "Non-Woven Bags",
+    category: "Non-Woven bags",
+    material: "Plastic/Non-Woven",
+    sizeOptions: [
+      "Custom Size",
+    ],
+    image: "/images/carry bag.jpeg",
+    description: "Non-Woven Carry bag for multiple items",
+  },
 ];
 
 export const categories = [

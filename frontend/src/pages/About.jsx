@@ -16,7 +16,7 @@ const About = () => {
     },
     {
       icon: Truck,
-      title: 'PAN India Delivery',
+      title: 'All India Delivery',
       description: 'Fast and reliable delivery network covering all major cities and towns across India.'
     },
     {
@@ -46,7 +46,7 @@ const About = () => {
               About <span className="text-red-100">JBM</span>
             </h1>
             <p className="text-xl text-red-100 max-w-3xl mx-auto leading-relaxed">
-              We are one of India's reliable PVC & non-woven bag manufacturers delivering quality packaging and custom bags with PAN India delivery.
+              We are one of India's reliable PVC & non-woven bag manufacturers delivering quality packaging and custom bags with All India delivery.
             </p>
           </div>
         </div>
@@ -58,7 +58,7 @@ const About = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <img
-                src="https://images.pexels.com/photos/5532720/pexels-photo-5532720.jpeg?w=800&q=80"
+                src="\images\MACHINE2.jpeg"
                 alt="Manufacturing Facility"
                 className="rounded-2xl shadow-2xl w-full h-[400px] object-cover"
               />
@@ -120,11 +120,11 @@ const About = () => {
               <div className="text-gray-600">Years in Business</div>
             </div>
             <div className="p-6">
-              <div className="text-4xl font-bold text-red-600 mb-2">500+</div>
+              <div className="text-4xl font-bold text-red-600 mb-2">100+</div>
               <div className="text-gray-600">Happy Clients</div>
             </div>
             <div className="p-6">
-              <div className="text-4xl font-bold text-red-600 mb-2">9+</div>
+              <div className="text-4xl font-bold text-red-600 mb-2">25+</div>
               <div className="text-gray-600">Product Categories</div>
             </div>
             <div className="p-6">
