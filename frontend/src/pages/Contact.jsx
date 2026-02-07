@@ -234,15 +234,15 @@ const Contact = () => {
               </button>
             </form>
 
-            {/* Map Placeholder */}
+           {/* Google Map Location */}
             <div className="mt-8 bg-white rounded-2xl shadow-sm overflow-hidden">
-              <div className="h-[300px] bg-gray-200 flex items-center justify-center">
-                <div className="text-center text-gray-500">
-                  <MapPin size={48} className="mx-auto mb-2" />
-                  <p>Map location placeholder</p>
-                  <p className="text-sm">New Delhi, India</p>
-                </div>
-              </div>
+              <iframe
+                title="Jyoti Bag Manufacturer Location"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.491620807352!2d77.44298540000001!3d28.704850399999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf101bcd6f8df%3A0x83be39cac063faea!2sJYOTI%20BAG%20MANUFACTURER!5e0!3m2!1sen!2sin!4v1770480085914!5m2!1sen!2sin"
+                className="w-full h-[300px] border-0"
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                allowFullScreen/>
             </div>
           </div>
         </div>
